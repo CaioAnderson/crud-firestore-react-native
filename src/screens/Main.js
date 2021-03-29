@@ -36,7 +36,6 @@ export default function Main() {
             <View style={styles.containerButtons}>
                 <Button onPress='adicionar'>Adicionar</Button>
             </View>
-
         </View>
     )
 };
