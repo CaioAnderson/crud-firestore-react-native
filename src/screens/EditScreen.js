@@ -6,7 +6,6 @@ import {
 
 import { EditarUser } from '../service/UserService';
 
-
 export default function EditScreen({ navigation ,route: { params } }) {
 
     const { id, name } = params;
@@ -47,8 +46,6 @@ export default function EditScreen({ navigation ,route: { params } }) {
                     </TouchableOpacity>
                 </View>
             )}
-
-
 
         </View>
     )

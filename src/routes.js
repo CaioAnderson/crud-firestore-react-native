@@ -24,8 +24,6 @@ export default function Routes() {
                 <Screen name='Add' component={AddScreen}
                     options={{ title: 'Adicionar usuário', headerTransparent: true }} />
 
-
-
             </Navigator>
         </NavigationContainer>
     )

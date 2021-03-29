@@ -20,9 +20,9 @@ export default function Button({ onPress, children, id, name }) {
         } else {
             setModalVisible(true);
             const response = DeleteUser(id);
-            if(response){
+            if (response) {
                 setModalVisible(false);
-            }else{
+            } else {
                 alert('Erro ao tentar deletar');
             }
             setModalVisible(false)
@@ -87,8 +87,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginHorizontal: 30
-      },
-      modalView: {
+    },
+    modalView: {
         margin: 20,
         backgroundColor: 'white',
         borderRadius: 20,
@@ -96,23 +96,23 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         shadowColor: '#000',
         shadowOffset: {
-          width: 0,
-          height: 2,
+            width: 0,
+            height: 2,
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
-      },
-      textStyle: {
+    },
+    textStyle: {
         color: 'white',
         fontWeight: 'bold',
         textAlign: 'center',
-      },
-      modalText: {
+    },
+    modalText: {
         marginBottom: 15,
         textAlign: 'center',
-      },
-      buttonModal: {
+    },
+    buttonModal: {
         alignItems: 'center',
         justifyContent: 'center',
         height: 50,
@@ -120,5 +120,6 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         backgroundColor: '#6BA5F2',
         marginHorizontal: 20
-      }
+    }
+
 })

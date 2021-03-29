@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ListItem } from 'react-native-elements';
-import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 import Button from './Button';
-
 
 export default function ListCustom({ id, nomeUser }) {
 
